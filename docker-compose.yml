@@ -1,0 +1,12 @@
+version: "3"
+services:
+  dlna:
+    build: .
+    ports:
+      - "8200:8200"
+      - "554:554"
+    volumes:
+      - ./minidlna.conf:/etc/minidlna.conf
+      - ./video.mp4:/var/lib/minidlna/video.mp4
+
+    
