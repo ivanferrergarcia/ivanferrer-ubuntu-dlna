@@ -1,1 +1,1 @@
-# ivanferrer-ubuntu-dlna
+Benvinguts a la meva pràctica de DLNA
